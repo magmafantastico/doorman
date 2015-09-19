@@ -1,7 +1,7 @@
 {
   "name": "doorman",
   "version": "1.0.0",
-  "description": "Villa Web Stack",
+  "description": "https://github.com/magmafantastico/doorman.git",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.0",
