@@ -7,12 +7,18 @@ board.on("ready", function() {
 
 	var ledligado = false;
 
-	setTimeout(function() {
+	setInterval(function() {
 
-		led.on();
+		setTimeout(function() {
 
-	}, 500);
+			led.on();
 
-	led.off();
+		}, 500);
+
+		led.off();
+
+		console.log('again');
+
+	}, 5000);
 
 });
