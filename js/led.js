@@ -15,7 +15,7 @@ board.on("ready", function() {
 
 			led.off();
 
-		}, 500);
+		}, 200);
 
 		console.log('again');
 
