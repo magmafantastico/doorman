@@ -17,6 +17,6 @@ board.on("ready", function() {
 		ledligado = !ledligado;
 		console.log(ledligado);
 
-	}, 2000);
+	}, 500);
 
 });
