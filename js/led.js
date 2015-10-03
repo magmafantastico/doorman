@@ -9,16 +9,10 @@ board.on("ready", function() {
 
 	setInterval(function() {
 
-		setTimeout(function() {
-
-			led.on();
-
-		}, 500);
-
-		led.off();
+		led.pulse(500);
 
 		console.log('again');
 
-	}, 500);
+	}, 5000);
 
 });
