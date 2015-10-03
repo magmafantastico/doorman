@@ -9,7 +9,13 @@ board.on("ready", function() {
 
 	setInterval(function() {
 
-		led.pulse(500);
+		led.on();
+
+		setTimeout(function() {
+
+			led.off();
+
+		}, 500);
 
 		console.log('again');
 
