@@ -3,21 +3,20 @@ var board = new five.Board();
 
 board.on("ready", function() {
 
-	var led1 = new five.Led(7);
-	var led2 = new five.Led(13);
+	var led3 = new five.Led(3);
 
-	var led1ligado = false;
+	var led3ligado = false;
 
 	setInterval(function() {
-		if(led1ligado) {
-			led1.off();
-			led2.on();
+
+		if(led3ligado) {
+			led3.off();
 		} else {
-			led1.on();
-			led2.off();
+			led3.on();
 		}
-		led1ligado = !led1ligado;
-		console.log(( (led1ligado) ? 'led1' : 'led2' ) + 'diz: piuuuuuuuuuuuuuuuuuuuuuuuuuu');
+		led3ligado = !led3ligado;
+		console.log(led3ligado);
+
 	}, 2000);
 
 });
