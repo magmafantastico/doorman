@@ -7,7 +7,7 @@ board.on("ready", function() {
 
 	var ledligado = false;
 
-	setInterval(function() {
+	setTimeout(function() {
 
 		if(ledligado) {
 			led.off();
