@@ -3,19 +3,19 @@ var board = new five.Board();
 
 board.on("ready", function() {
 
-	var led3 = new five.Led(3);
+	var led2 = new five.Led(2);
 
-	var led3ligado = false;
+	var led2ligado = false;
 
 	setInterval(function() {
 
-		if(led3ligado) {
-			led3.off();
+		if(led2ligado) {
+			led2.off();
 		} else {
-			led3.on();
+			led2.on();
 		}
-		led3ligado = !led3ligado;
-		console.log(led3ligado);
+		led2ligado = !led2ligado;
+		console.log(led2ligado);
 
 	}, 2000);
 
