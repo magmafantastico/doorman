@@ -19,6 +19,6 @@ board.on("ready", function() {
 
 		console.log('again');
 
-	}, 5000);
+	}, 500);
 
 });
