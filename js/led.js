@@ -22,6 +22,7 @@ board.on("ready", function() {
 	for (var i = 0; i < 15; i++) {
 		var led = new five.Led(i);
 		led.on();
+		console.log('led ' + i + ': on');
 	}
 
 });
