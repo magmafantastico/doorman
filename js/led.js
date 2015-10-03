@@ -9,8 +9,10 @@ board.on("ready", function() {
 
 	setTimeout(function() {
 
-		led.toggle();
+		led.on();
 
 	}, 500);
+
+	led.off();
 
 });
