@@ -3,7 +3,7 @@ var board = new five.Board();
 
 board.on("ready", function() {
 
-	var led2 = new five.Led(2);
+	var led2 = new five.Led(3);
 
 	var led2ligado = false;
 
