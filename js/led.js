@@ -9,13 +9,7 @@ board.on("ready", function() {
 
 	setTimeout(function() {
 
-		if(ledligado) {
-			led.off();
-		} else {
-			led.on();
-		}
-		ledligado = !ledligado;
-		console.log(ledligado);
+		led.toggle();
 
 	}, 500);
 
